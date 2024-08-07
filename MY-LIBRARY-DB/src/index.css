@@ -59,7 +59,7 @@ form {
   width: 50%; /* Adjust width as needed */
   margin: 0 auto; /* Center the form */
   background-color: rgb(186, 186, 252);
-  height: 400px;
+  height: 500px;
   padding: 15px;
   
 }
@@ -75,21 +75,3 @@ button{
 
 
 
-/* .form-group {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px; /* Adjust spacing between groups */
-/* }
-
-label {
-  flex: 0 0 120px; /* Set a fixed width for labels 
-   text-align: right;
-  margin-right: 10px;
-}
-
-input {
-  flex: 1;
-  padding: 5px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-} */ 

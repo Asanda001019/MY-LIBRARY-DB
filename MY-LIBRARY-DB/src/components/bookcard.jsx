@@ -1,10 +1,11 @@
 import React from 'react'
+import DeleteBooks from './deletebooks'
 
 
 function BookCard ({book}){
     return (
       <>
-<div class="container">
+<div className="container">
 <div className="big-card">
   <div className="small-card">
   <img src={book.CDESIGNER}alt='ssss' className='bg' />
@@ -27,6 +28,7 @@ function BookCard ({book}){
   <p className="card-heading">{book.TITLE}</p>
   <p className="card-author">{book.PUBLISHER}</p>
   <p className="card-price">{book.PRICE}</p>
+  <DeleteBooks ISBN={BookCard}/>
 </div>
 </div>
 

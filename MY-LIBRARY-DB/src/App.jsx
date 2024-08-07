@@ -1,9 +1,9 @@
 import React from 'react'
-import Addbook from './components/addbooks'
-import DisplayBooks from './components/displaybook'
-import DeleteBooks from './components/deletebooks'
+// import {addbook} from './components/addbooks'
+// import DisplayBooks from './components/displaybook'
+
 import RegisterBooks from './components/registerbooks'
-import UpdateBooks from './components/updatebooks'
+
 import BookCard from './components/bookcard'
 
 function App() {
@@ -50,11 +50,12 @@ function App() {
   return (
     <>
      
-   <Addbook book={bookTable[0]}/>
+   {/* <Addbook book={bookTable[0]}/> */}
    {/* <DisplayBooks/> */}
-   {/* <DeleteBooks/> */}
+   
    <RegisterBooks/>
-   {/* <UpdateBooks/> */}
+   
+   <BookCard book={bookTable[2]}/>
    <BookCard book={bookTable[2]}/>
    
     </>

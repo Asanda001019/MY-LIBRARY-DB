@@ -2,10 +2,17 @@
 
 import React from 'react'
 
-function DeleteBooks(){
+function DeleteBooks({ISBN}){
+
+  let MYBOOKS = JSON.parse(localStorage.getItem("MY LIBRARY DATABASE"))
+
+  function handleDelete(){
+
+  }
+
   return (
     <div>
-        <button>DELETE</button>
+        <button onClick={handleDelete}>DELETE</button>
  </div>
   )
 }
