@@ -31,8 +31,8 @@ function RegisterBooks(){
       <label>Enter ISBN:
         <input 
          type="number" 
-         name="isbn" 
-         value={inputs.isbn || ""} 
+         name="ISBN" 
+         value={inputs.ISBN || ""} 
          onChange={handleChange}/>
      </label>
       <br></br>
@@ -40,8 +40,8 @@ function RegisterBooks(){
 
       <label>Enter The Book Title:
         <input type="text" 
-         name="title" 
-         value={inputs.title || ""} 
+         name="TITLE" 
+         value={inputs.TITLE || ""} 
          onChange={handleChange}/>
       </label>
       <br></br>
@@ -58,8 +58,8 @@ function RegisterBooks(){
 
       <label>Enter edition:
         <input type="text"
-         name="edition" 
-         value={inputs.edition || ""} 
+         name="EDITION" 
+         value={inputs.EDITION || ""} 
          onChange={handleChange} />
       </label>
       <br></br>
@@ -67,8 +67,8 @@ function RegisterBooks(){
 
       <label>Enter publisher's name:
         <input type="text" 
-         name="username" 
-        value={inputs.username || ""} 
+         name="PUBLISHER" 
+        value={inputs.PUBLISHER || ""} 
         onChange={handleChange}/>
       </label>
       <br></br>
@@ -76,17 +76,17 @@ function RegisterBooks(){
 
       <label>Enter editor name:
         <input type="text" 
-        name="editorName" 
-        value={inputs.editorName || ""} 
+        name="EDITOR" 
+        value={inputs.EDITOR || ""} 
         onChange={handleChange} />
       </label>
       <br></br>
       <br></br>
 
       <label>Enter the price:
-        <input type="price"
-         name="price" 
-         value={inputs.price || ""} 
+        <input type="PRICE"
+         name="PRICE" 
+         value={inputs.PRICE || ""} 
          onChange={handleChange} />
       </label>
       <br></br>

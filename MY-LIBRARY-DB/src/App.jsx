@@ -1,10 +1,12 @@
 import React from 'react'
 // import {addbook} from './components/addbooks'
-// import DisplayBooks from './components/displaybook'
+import DisplayBooks from './components/displaybook'
 
 import RegisterBooks from './components/registerbooks'
 
 import BookCard from './components/bookcard'
+
+
 
 function App() {
 
@@ -46,17 +48,21 @@ function App() {
   },
   ]
   
- 
-  return (
+ //localStorage.setItem('MY LIBRARY DATABASE', JSON.stringify(bookTable))
+ let MYBOOKS = JSON.parse(localStorage.getItem("MY LIBRARY DATABASE"))
+//  console.log(MYBOOKS.TITLE)
+ return (
     <>
      
    {/* <Addbook book={bookTable[0]}/> */}
-   {/* <DisplayBooks/> */}
+
+   <DisplayBooks book={MYBOOKS}/>
    
    <RegisterBooks/>
    
-   <BookCard book={bookTable[2]}/>
-   <BookCard book={bookTable[2]}/>
+   {/* <BookCard book={MYBOOKS}/> */}
+  
+  
    
     </>
   )
